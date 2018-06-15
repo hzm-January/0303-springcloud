@@ -1,0 +1,9 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: hzm-eureka-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka

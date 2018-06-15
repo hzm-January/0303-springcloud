@@ -1,0 +1,14 @@
+server:
+  port: 5555
+spring:
+  application:
+    name: hzm-eureka-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+#    heartbeat-executor-thread-pool-size:
+#    cache-refresh-executor-exponential-back-off-bound:
+#    use-dns-for-fetching-service-urls:
+#    prefer-same-zone-eureka:
+#    filter-only-up-instances:
